@@ -1,0 +1,9 @@
+<ol>
+  <li *ngFor="let helloWorld of helloWorlds">{{helloWorld}}</li>
+</ol>
+<p *ngIf="helloWorlds.length >= 10">Successfully loaded!</p>
+<ng-container *ngIf='errors.length > 0'>
+  <ul>
+      <li *ngFor='let error of errors'></li>
+  </ul>
+</ng-container>
