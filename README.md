@@ -5,7 +5,7 @@ Example full stack solution to learn more about and demonstrate the integrations
 ## Tech stack
 
 - RESTful .NET API with mocked async data response using DI
-- Angular 7 front-end
+- Angular 9 front-end
 
 ## Room for improvement
 
